@@ -1,0 +1,14 @@
+*.log 
+*~ 
+*.out 
+*.ptb 
+*.aux 
+*.log 
+*.toc 
+*.idx 
+*.ind 
+*.ilg 
+*.bak 
+*.nav 
+*.snm 
+*.vrb

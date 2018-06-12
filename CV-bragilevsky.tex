@@ -1,0 +1,104 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[grey]{classic}
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.87]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Vitaly}
+\familyname{Bragilevsky}
+\title{Curriculum Vitae}
+\email{vit.bragilevsky@gmail.com}
+\photo[64pt]{bravit-17.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\social[twitter]{VBragilevsky}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{1997--2001}{B.Sc. in Applied Mathematics and Computer Science}{Rostov State University}{Rostov-on-Don, Russia}
+{\textit{with honours}}{}
+\cventry{2001--2003}{M.Sc. in Applied Mathematics and Computer Science}{Rostov State University}{Rostov-on-Don, Russia}
+{\textit{with honours}}{Master thesis: <<Singular-type operators in the spaces of vector-valued functions>>, under supervision of prof. V.S. Pilidi. }
+\subsection{Other}
+%\cvlistitem{Short course in methods, tools and systems for information security,   Moscow Engineering Physics Institute, Moscow, Russia, December 2004.}
+%\cvlistitem{Short course in hardware and software for computer networking, 
+%Southern Federal University, Rostov-on-Don, Russia, November--December 2010.}
+\cvlistitem{10th Annual Oregon Programming Languages Summer School
+(Types, Semantics and Verification), University of Oregon, Eugene, OR, USA, June~16--July~1, 2011.}
+\cvlistitem{Summer School Marktoberdorf 2011 
+(Tools for Analysis and Verification of Software Safety and Security), 
+Bayrischzell, Germany, August 2--14, 2011.}
+\cvlistitem{Short course in iOS-applications Development, National Research University «MPEI», Moscow, Russia, June 14--19, 2015.}
+%\cvlistitem{Online courses (coursera.org, edx.org) in Automata, Logic, Complilers, Machine Learning, Algorithms, Cryptography, Functional Programming, etc.)}
+
+
+% \section{Master thesis}
+% \cvline{title}{\emph{Singular-type operators in the spaces of vector-valued functions.}}
+% \cvline{supervisor}{Prof. V.S. Pilidi}
+% \cvline{description}{\small Algebras of operators of singular and bisingular type are considered. For these algebras, 
+% the notions of an envelope of a family of operators are introduced, 
+% necessary and sufficient conditions of its existence and uniqueness are given. 
+% There are obtained estimates for the essential norm of the envelope operator. 
+% The statements of the paper are demonstrated for the case of singular integral 
+% operators with continuous operator-valued coefficients.}
+
+\section{Experience}
+\subsection{Academy}
+\cventry{2003--present}{Senior Lecturer}{Southern Federal University, I.I. Vorovich Institute of Mathematics, Mechanics and Computer Science}{Rostov-on-Don}{Russia}
+{Current Courses: Theory of Computations (since 2012), Data Visualization (since 2016), Programming Paradigms and Technologies (since 2017).\\
+Past Courses: Abstract Algebra and Number Theory, Computational Complexity, Web/XML-technologies, Computer Networks, Distributed Systems, 
+Operating Systems,  Java Programming, Python Programming, Computer Methods in Discrete Mathematics, Certified Software Development, Category Theory, Functional Programming (2009--2017).}
+\cventry{2007--present}{Curriculum Designer}{Southern Federal University, I.I. Vorovich Institute of Mathematics, Mechanics and Computer Science}{bachelor and master programs in Theoretical Computer Science and Information Technologies}{}{}{}
+\cventry{February 2017}{Invited Lecturer}{CS Club (St. Petersburg, Russia)}{Programming in Idris with Dependent Types}{}{}{}
+\cventry{July 2017}{Invited Lecturer}{Summer School on Contemporary Mathematics (Dubna, Russia)}{Curry---Howard Correspondence: from Logic to Programming and Back Again}{}{}{}
+\cventry{November 2017}{Invited Lecturer}{Higher School of Ecomomics (Moscow, Russia)}{Functional Programming with Dependent Types in Idris}{}{}{}
+\cventry{March 2018}{Invited Lecturer}{CS Club (St. Petersburg, Russia)}{The Glasgow Haskell Compiler: Theory of Programming Languages at Work}{}{}{}
+\cventry{June 2018}{Invited Lecturer}{LambdaConf (Boulder, CO, USA)}{The Type Theory Behind the Glasgow Haskell Compiler Internals}{}{}{}
+
+\newpage
+\subsection{Publishing}
+\cventry{2012}{Translation Editor}{M. Lipovača. Learn you a Haskell for Great Good}{DMK Press (in Russian)}{}{}{}
+\cventry{2013}{Translator}{G. Dowek, J.-J. Lévy. Introduction to the Theory of  Programming Languages (\emph{with Artem Pelenitsyn})}{DMK Press (in Russian)}{}{}{}
+\cventry{2013}{Translator}{R. Bird. Pearls of Functional Algorithm Design (\emph{with Artem Pelenitsyn)}}{DMK Press (in Russian)}{}{}{}
+\cventry{2014}{Translator}{S. Marlow. Parallel and Concurrent
+Programming in Haskell}{DMK Press (in Russian)}{}{}{}
+\cventry{2016}{Translation Editor}{C. Okasaki. Purely Functional Data Structures}{DMK Press (in Russian)}{}{}{}
+\cventry{2015--present}{External Reviewer and Technical Proofreader}{}{Manning Publications}{}{}{}
+
+
+\subsection{Miscellaneous}
+\cventry{2002--2017}{Teacher}{Computer School for children (Southern Federal University)}{Rostov-on-Don}{Russia}{}
+\cventry{2016--present}{Haskell Language Committee Member}{Haskell 2020}{}{}{}
+\cventry{2015--present}{Coordinator}{AWS Educate Initiative (for Southern Federal University)}{}{}{}
+\cventry{2015--present}{Coordinator}{iOS Developer University Program (for Southern Federal University)}{}{}{}
+\cventry{April 2017}{Organizer}{Conference on Programming Languages and Compilers (at the Southern Federal University)}{Rostov-on-Don}{Russia}{}
+
+
+\section{Selected Papers}
+\cvlistitem{V. Bragilevsky, V. S. Pilidi. Analog of Simonenko's theorem on an envelope of a family of operators for operators on the spaces of vector-valued functions.
+Izvestia vuzov. Severokavkazsky region. Vol. 4. 2005. (\emph{in Russian})}
+\cvlistitem{V. Bragilevsky. Limits of Folds Expressiveness. Practice of Functional Programming. Vol.~4. 2010. (\emph{in Russian})}
+
+\section{Interests}
+\cvline{History}{\small Medieval Europe}
+\cvline{Arts}{\small 19th century music and literature, opera}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
